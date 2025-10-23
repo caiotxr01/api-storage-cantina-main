@@ -27,7 +27,7 @@
   },
   {
     "data": "2025-10-23T00:00:00-03:00",
-    "turno": "manha",
+    "turno": "manhã",
     "refeicao": {
       "titulo": "Almoço",
       "horario": "11:20",
@@ -49,7 +49,7 @@
   },
   {
     "data": "2025-10-23T00:00:00-03:00",
-    "turno": "noite",
+    "turno": "noturno",
     "refeicao": {
       "titulo": "Almoço",
       "horario": "21:00",
