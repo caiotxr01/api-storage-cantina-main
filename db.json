@@ -7,78 +7,59 @@
       "senha": "senha123"
     }
   ],
-  "pratos": [
+  "pratos":[
   {
-     "id_prato": 100,
-    "dia": "2025-06-29T00:00:00.000-03:00",
+    "data": "2025-10-23T00:00:00-03:00",
+    "turno": "integral",
+    "refeicao": {
+      "titulo": "Almoço",
+      "horario": "",
+      "itens": ["Macarrão"],
+      "bebida": "Suco de limão",
+      "img": ["./img/image2.png", "./img/image1.png"]
+    },
+    "lanche": {
+      "titulo": "Lanche",
+      "itens": ["Misto"],
+      "bebida": "Suco de laranja",
+      "img": ["./img/image1.png"]
+    }
+  },
+  {
+    "data": "2025-10-23T00:00:00-03:00",
+    "turno": "manha",
+    "refeicao": {
+      "titulo": "Almoço",
+      "horario": "11:20",
+      "itens": ["Macarrão"],
+      "bebida": "Suco de limão",
+      "img": ["./img/image2.png", "./img/image1.png"]
+    }
+  },
+  {
+    "data": "2025-10-23T00:00:00-03:00",
     "turno": "tarde",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
+    "refeicao": {
+      "titulo": "Almoço",
+      "horario": "15:00",
+      "itens": ["Macarrão"],
+      "bebida": "Suco de limão",
+      "img": ["./img/image2.png", "./img/image1.png"]
+    }
   },
   {
-     "id_prato": 101,
-    "dia": "2025-06-30T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 102,
-    "dia": "2025-07-01T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 103,
-    "dia": "2025-07-02T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 104,
-    "dia": "2025-07-03T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 105,
-    "dia": "2025-07-04T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-    {
-     "id_prato": 106,
-    "dia": "2025-07-05T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
+    "data": "2025-10-23T00:00:00-03:00",
+    "turno": "noite",
+    "refeicao": {
+      "titulo": "Almoço",
+      "horario": "21:00",
+      "itens": ["Macarrão"],
+      "bebida": "Suco de limão",
+      "img": ["./img/image2.png", "./img/image1.png"]
+    }
   }
-],
+]
+,
   "votacao": [
   {
     "id_voto": 1,
